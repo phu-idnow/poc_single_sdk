@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireLogger (0.2.1):
+    - Alamofire (~> 4.0)
+  - lottie-ios (3.1.0)
+  - OpenCV2 (3.4.6)
+  - Sentry (4.1.0):
+    - Sentry/Core (= 4.1.0)
+  - Sentry/Core (4.1.0)
+  - Starscream (3.0.6)
+  - SwiftMsgPack (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireLogger
+  - lottie-ios
+  - OpenCV2 (~> 3.4.1)
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `4.1.0`)
+  - Starscream (~> 3.0.2)
+  - SwiftMsgPack (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireLogger
+    - lottie-ios
+    - OpenCV2
+    - Starscream
+    - SwiftMsgPack
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 4.1.0
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 4.1.0
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireLogger: 5ad4631418b074bf07a5e5c1220052df805e6587
+  lottie-ios: 9467723922dfff46f6d4e3019c32594a62440b7c
+  OpenCV2: a868f9c69306c872b862be88804fc8633870a368
+  Sentry: 44b85e768f435ede4d12ea279af588ff275c3939
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftMsgPack: 2d36d4b1551716b45ed5a7bf8faca3d3e9d4c119
+
+PODFILE CHECKSUM: 4e2a6840cd57ad28c73717e8a21b16158eabc471
+
+COCOAPODS: 1.5.3
